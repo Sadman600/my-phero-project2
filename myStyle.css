@@ -1,9 +1,14 @@
+/* common style  */
 body{
     font-family: verdana;
 }
 header{
-    border: 2px dashed red;
+    /* border: 2px dashed red; */
 }
+main{
+    border: 2px dashed green;
+}
+/* Header Section Style  */
 nav{
     display: flex;
     justify-content: space-around;
@@ -14,3 +19,60 @@ nav a{
     font-size: 20px;
     margin-right: 10px;
 }
+
+/* influencer section styles  */
+.influencer-container{
+    position: relative;
+    border: 2px dotted blue;
+    display: flex;
+    justify-content: space-around;
+}
+.influencer{
+    border: 2px dotted orange;
+    width: 50%;
+    padding: 20px;
+    margin: 25px;
+}
+.influ-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+}
+.influ-para{
+    text-align: justify;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    
+}
+.influencer img{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 835px;
+    z-index: 1;
+    top: -1px;
+    object-fit: contain;
+}
+.prebook{
+    background-color: #008CBA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 196px;
+    height: 20px;
+    padding: 10px 24px;
+    border-radius: 20px;
+    position: absolute;
+    left: 45px;
+}
+.link-button, .fa-arrow-right{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
