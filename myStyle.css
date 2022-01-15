@@ -76,3 +76,17 @@ nav a{
     font-size: 20px;
 }
 
+/* Logos section styles  */
+.logos-container{
+    border: 2px dotted red;
+    width: 100%;
+    height: 110px;
+}
+
+.logos{
+    border: 2px dotted orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
