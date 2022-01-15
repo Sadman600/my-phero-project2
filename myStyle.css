@@ -2,13 +2,7 @@
 body{
     font-family: verdana;
 }
-header{
-    /* border: 2px dashed red; */
-}
-main{
-    border: 2px dashed green;
-    
-}
+
 /* Header Section Style  */
 nav{
     display: flex;
@@ -48,13 +42,11 @@ main > .popu2{
 /* influencer section styles  */
 .influencer-container{
     position: relative;
-    border: 2px dotted blue;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 .influencer{
-    border: 2px dotted orange;
     width: 50%;
     padding: 20px;
     margin: 25px;
@@ -107,17 +99,19 @@ main > .popu2{
     
     width: 100%;
     height: 110px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .logos{
-    border: 2px dotted orange;
+    
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    border-top: 2px solid gray;
-    border-bottom: 2px solid gray;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    
+    
 }
 /* Popular section styles  */
 .popular-container{
@@ -187,4 +181,26 @@ main > .popu2{
   color: white;
 }
 
+/* Extra section styles  */
+
+.extra-container{
+    
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    
+}
+.extra{
+    width: 50%;
+    padding: 30px;
+    margin-top: 20px;
+}
+.extra p{
+    text-align: justify;
+}
+.extra img{
+    
+    width: 70%
+}
 
