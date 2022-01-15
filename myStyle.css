@@ -121,17 +121,12 @@ main > .popu2{
 }
 .populars-product{
     width: 300px;
-    /* height: 450px; */
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
     margin: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-/* .populars img{
-    width: 300px;
-    object-fit: cover;
-} */
 .product-info{
     padding: 10px;
 }
@@ -152,7 +147,6 @@ main > .popu2{
     
 }
 .product-rating{
-    /* border: 1px solid blue; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -204,3 +198,35 @@ main > .popu2{
     width: 70%
 }
 
+ /*-------------
+    Media Querys 
+ ------------ */
+/*-------------
+    Mobail Devices 
+ ------------ */
+
+ @media only screen and (max-width:688px) {
+    .influencer-container, .logos-container, .popular-container,.extra-containe{
+        width: 100%;
+    }
+    .influencer, .logos, .popu, .populars-product, .popu2  {
+         grid-template-columns: repeat(1, 1fr);
+         align-items: center;
+         flex-direction: column;
+        justify-content: center;
+     }
+    
+     
+ }
+/*Tablet Devices */
+ @media only screen and (min-width: 689px) and (max-width: 992px) {
+    .influencer-container, .logos-container, .popular-container,.extra-containe{
+        width: 100%;
+    }
+    .influencer, .logos, .popu, .populars-product, .popu2  {
+         grid-template-columns: repeat(2, 1fr);
+         align-items: center;
+         flex-direction: column;
+        justify-content: center;
+     }
+ }
