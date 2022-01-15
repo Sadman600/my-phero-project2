@@ -24,6 +24,26 @@ nav a{
 main > .popu{
     text-align: center;
 }
+main > .popu2{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 196px;
+    height: 20px;
+    padding: 10px 24px;
+    border-radius: 20px;
+    position: absolute;
+    left: 1000px;
+}
+.link-button1, .fa-arrow-right{
+    text-decoration: none;
+    color: tomato;
+    font-weight: 700;
+    font-size: 20px;
+}
+
 
 /* influencer section styles  */
 .influencer-container{
@@ -157,6 +177,14 @@ main > .popu{
     font-weight: bold;
     font-size: 13px;
     line-height: 20px;
+}
+
+/* footer section styles  */
+.footer-container{
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
 }
 
 
